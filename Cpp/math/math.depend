@@ -1,5 +1,0 @@
-# depslib dependency file v1.0
-1592491178 source:/home/stark/Test/cpp/math/main.cpp
-	<iostream>
-	<cmath>
-
