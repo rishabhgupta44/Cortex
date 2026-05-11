@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+.venv/
+venv/
+env/
+.vscode/
+.vscode-test/
+DbManager/history
+DbManager/history - Copy
+.env
+*.pem
+*.key
+credentials
+config.json

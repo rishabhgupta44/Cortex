@@ -1,0 +1,27 @@
+[
+  {"PERSON":
+    [
+        {
+            "TAG":"JARVIS", 
+            "ARGUMENT":["YOU","YOURSELF","YOUR","YOURS"]
+        },
+        {
+            "TAG":"USER",
+            "ARGUMENT":["ME","I","MYSELF","MINE"]
+        },
+        {
+            "TAG":"TPERSON_M",
+            "ARGUMENT":["HE","HIS","HIM","THEY","THIER","THEM","HIMSELF"]
+        },
+        {
+            "TAG":"TPERSON_F",
+            "ARGUMENT":["SHE","HER","HIM","HERSELF","HERS"]
+        }
+    ]
+  },
+  {"TYPE": 
+    [
+
+    ]
+  }
+]

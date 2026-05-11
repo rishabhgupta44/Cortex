@@ -1,0 +1,3 @@
+I am C.O.R.T.E.X.
+I was created as a personal project on 30th july 2019.
+Full form is part of the Rule-Based Cognitive Architecture project. The aim is to demonstrate deterministic language processing and rule-based reasoning.

@@ -1,0 +1,22 @@
+[
+    {  
+        "TYPE":"QUESTION",
+        "INIT":["WHY","WILL","WHO","WHAT","WHOM","WHERE","HAVE","HAD","HAS","MAY","WHEN","DO","DOES","SHOULD","SHOULDN'T","CAN","AM","IS","ARE","WERE","WAS"],
+        "TONE":[
+            {"QUESTIONS":{
+                            "PRESENT":["WHAT","WHO","WHERE","DO","DOES","SHOULD","CAN","AM"],
+                            "PAST":["WHEN","WHEN","WHO","DOES","SHOULD","SHOULDN'T"]
+                        },
+             "TIMEMARKER":{
+                            "PRESENT":["DO","DOES","CAN","MAY","IS","ARE"],
+                            "PAST":["WAS","WERE","SHOULD","SHOULDN'T"]
+             }
+           }
+        ]
+    },
+    {
+        "TYPE":"AUXILLARY VERB",
+        "INIT":["IS","ARE","DID","WAS","WERE","HAS","HAVE","HAD","DO","DOES"]
+        
+    }
+]

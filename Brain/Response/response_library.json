@@ -1,0 +1,481 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "description": "Cortex Response Library - Flexible conversation response templates",
+    "last_updated": "2025-01-10",
+    "note": "Each response category has high/medium/low priority variants for flexible, context-aware responses"
+  },
+
+  "greeting_responses": {
+    "description": "Used when user greets Cortex (hello, hi, hey, etc.)",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Hello! I'm Cortex, your AI assistant. How can I help?",
+          "Hi there! What can I do for you today?",
+          "Greetings! Ready to assist.",
+          "Hey! What's on your mind?"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Hello! What do you need?",
+          "Hi! How's it going?",
+          "What's up?"
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Hello.",
+          "Hi."
+        ]
+      }
+    ]
+  },
+
+  "goodbye_responses": {
+    "description": "Used when user closes conversation (bye, goodbye, exit, quit)",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Goodbye! It was nice talking to you. See you next time!",
+          "Take care! I'm always here if you need me.",
+          "Farewell! Come back soon.",
+          "See you later! Have a great day!"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Bye! Until next time.",
+          "Take care!",
+          "Goodbye!"
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Bye.",
+          "Goodbye."
+        ]
+      }
+    ]
+  },
+
+  "help_responses": {
+    "description": "Used when user asks for help or available commands",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I can help you with:\n• System information (time, battery, network)\n• Opening applications (Chrome, Firefox, etc.)\n• File operations (backup, show files)\n• Task management and logging\n• Web search\n• And more! What would you like to do?",
+          "Here are some things you can ask me:\n1. 'What time is it?'\n2. 'Open Chrome'\n3. 'Backup my files'\n4. 'Check battery status'\n5. 'Tell me about yourself'\n6. 'Show my files'\nTry any of these!"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "I can help with applications, files, system info, and more. What would you like?",
+          "Ask me about time, apps, files, network, or tasks."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "What do you need help with?",
+          "I'm here to help."
+        ]
+      }
+    ]
+  },
+
+  "self_describe_name": {
+    "description": "Used when user asks 'What is your name?' or 'Who are you?'",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "My name is Cortex. I'm a rule-based AI assistant designed to help you with system tasks, applications, and information.",
+          "I'm Cortex, your personal AI cognitive architecture. I'm here to assist with your daily tasks.",
+          "You can call me Cortex. I'm an AI designed to help manage your system and execute tasks."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "I'm Cortex, an AI assistant.",
+          "My name is Cortex."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Cortex."
+        ]
+      }
+    ]
+  },
+
+  "self_describe_creator": {
+    "description": "Used when user asks 'Who created you?'",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I was created by Rishabh Gupta as part of the Rule-Based Cognitive Architecture project.",
+          "My creator is Rishabh Gupta. I was built to demonstrate how AI can work without machine learning."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "I was created by Rishabh Gupta.",
+          "Rishabh Gupta built me."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Rishabh Gupta.",
+          "My creator is Rishabh Gupta."
+        ]
+      }
+    ]
+  },
+
+  "self_describe_creation_date": {
+    "description": "Used when user asks 'When were you created?' or 'What's your birthday?'",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I was born on 17th July, 2019.",
+          "I was created on 17th July, 2019 by Rishabh Gupta."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "July 17, 2019.",
+          "2019-07-17."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "2019."
+        ]
+      }
+    ]
+  },
+
+  "system_info_time": {
+    "description": "Used when user asks for current time",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "The current time is {TIME}.",
+          "It's {TIME} right now.",
+          "The time is {TIME}."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Current time: {TIME}",
+          "It's {TIME}."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "{TIME}"
+        ]
+      }
+    ],
+    "note": "Replace {TIME} with actual current time from system"
+  },
+
+  "system_info_battery": {
+    "description": "Used when user asks 'What's my battery?' or battery status",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Your device battery is at {PERCENTAGE}% capacity.",
+          "Battery status: {PERCENTAGE}% charged.",
+          "The system has {PERCENTAGE}% battery remaining."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Battery: {PERCENTAGE}%",
+          "Your battery is {PERCENTAGE}%."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "{PERCENTAGE}%"
+        ]
+      }
+    ],
+    "note": "Replace {PERCENTAGE} with actual battery percentage"
+  },
+
+  "system_info_network": {
+    "description": "Used when user asks 'Check my connection' or 'Is network working?'",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Checking network connectivity... Testing connection to Google.",
+          "Network status: Testing connectivity now.",
+          "Let me check if your network is working."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Checking network...",
+          "Testing connectivity..."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Pinging network..."
+        ]
+      }
+    ]
+  },
+
+  "app_control_open": {
+    "description": "Used when user asks to open an application",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Opening {APP_NAME} for you. Just a moment.",
+          "Launching {APP_NAME}. Please wait.",
+          "Starting {APP_NAME}..."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Opening {APP_NAME}...",
+          "Starting {APP_NAME}."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "{APP_NAME} opening..."
+        ]
+      }
+    ],
+    "note": "Replace {APP_NAME} with the application name"
+  },
+
+  "file_operation_backup": {
+    "description": "Used when user asks to backup files",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Beginning file backup. This may take a few moments depending on file size.",
+          "Starting backup process. I'll save your files to the backup location.",
+          "Initiating backup. Please wait while I secure your files."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Starting file backup...",
+          "Backing up your files now."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Backup in progress..."
+        ]
+      }
+    ]
+  },
+
+  "file_operation_list": {
+    "description": "Used when user asks to show files or list directory",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Here are your files in the current directory:\n{FILE_LIST}",
+          "Current directory contents:\n{FILE_LIST}",
+          "These are the files available:\n{FILE_LIST}"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Files: {FILE_LIST}",
+          "Your files:\n{FILE_LIST}"
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "{FILE_LIST}"
+        ]
+      }
+    ],
+    "note": "Replace {FILE_LIST} with actual directory listing"
+  },
+
+  "search_web": {
+    "description": "Used when user asks to search the web or look something up",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "Searching for '{QUERY}' on Google. Opening your browser.",
+          "I'll search the web for '{QUERY}' and open the results for you.",
+          "Looking up '{QUERY}' now. Opening search results."
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Searching for {QUERY}...",
+          "Opening search for '{QUERY}'."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Searching '{QUERY}'..."
+        ]
+      }
+    ],
+    "note": "Replace {QUERY} with the search term"
+  },
+
+  "clarification_needed": {
+    "description": "Used when Cortex doesn't understand the user's request",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I'm not quite sure I understood that. Could you rephrase your question?",
+          "I didn't catch that fully. Can you say it in a different way?",
+          "That's unclear to me. Could you clarify what you're asking?"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Can you rephrase that?",
+          "I'm not sure. Say that again?",
+          "Could you clarify?"
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "What?",
+          "Sorry, I'm confused."
+        ]
+      }
+    ]
+  },
+
+  "error_response": {
+    "description": "Used when an error occurs during command execution",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I encountered an error while processing that. Please try again.",
+          "Something went wrong. Let me try that again for you.",
+          "An error occurred. Would you like to try a different command?"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "Error encountered. Try again?",
+          "Something didn't work right."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Error.",
+          "Failed."
+        ]
+      }
+    ]
+  },
+
+  "fallback_response": {
+    "description": "Used when no matching intent is found or question is out of scope",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "I'm not able to answer that right now. Is there something else I can help with?",
+          "That's beyond my current capabilities. Try asking me something else.",
+          "I don't have a good answer for that. What else can I help you with?"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "I don't know how to handle that.",
+          "That's not something I can do right now.",
+          "I'm not sure about that."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "I don't know.",
+          "I can't help with that."
+        ]
+      }
+    ]
+  },
+
+  "response_repeated": {
+    "description": "Used when user asks the same question multiple times in a row",
+    "examples": [
+      {
+        "priority": "high",
+        "responses": [
+          "You've asked me this a few times now. Is there something else I can help you with?",
+          "I think you've asked me that already. What else would you like to know?"
+        ]
+      },
+      {
+        "priority": "medium",
+        "responses": [
+          "That's the same question again.",
+          "I already answered that."
+        ]
+      },
+      {
+        "priority": "low",
+        "responses": [
+          "Repeated question."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+[
+    {
+        "NAME":"GOOGLE",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.google.com",
+        "SPATH":"/search?q=",
+        "STYPE":"+"
+    },
+    {
+        "NAME":"WIKIPEDIA",
+        "TYPE":"WEBSITE",
+        "PATH":"https://en.wikipedia.org",
+        "SPATH":"/wiki/",
+        "STYPE":"_"
+    },
+    {
+        "NAME":"AMAZON",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.amazon.in",
+        "SPATH":"/s?k=",
+        "STYPE":"+"
+    },
+    {
+        "NAME":"CHROME",
+        "TYPE":"APPLICATION",
+        "PATH":"chrome.exe"
+    },
+    {
+        "NAME":"FILE EXPLORER",
+        "TYPE":"APPLICATION",
+        "PATH":"explorer"
+    },
+    {
+        "NAME":"EXPLORER",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/Windows/explorer.exe"
+    },
+    {
+        "NAME":"HOTSTAR",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.hotstar.com/"
+    },
+    {
+        "NAME":"AMAZON VIDEO",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.primevideo.com/"
+    },
+    {
+        "NAME":"PRIME VIDEO",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.primevideo.com/"
+    },
+    {
+        "NAME":"AMAZON PRIME",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.primevideo.com/",
+        "SPATH":"/search/ref=atv_nb_sr?phrase=",
+        "STYPE":"+"
+    },
+    {
+        "NAME":"YOUTUBE",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.youtube.com",
+        "SPATH":"/results?search_query=",
+        "STYPE":"+"
+    },
+    {
+        "NAME":"GMAIL",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.gmail.com/"
+    },
+    {
+        "NAME":"WHATSAPP",
+        "TYPE":"WEBSITE",
+        "PATH":"https://web.whatsapp.com"
+    },
+    {
+        "NAME":"FACEBOOK",
+        "TYPE":"WEBSITE",
+        "PATH":"https://www.facebook.com",
+        "SPATH":"/search/top?q=",
+        "STYPE":"%20"
+    },
+    {
+        "NAME":"PROMPT",
+        "TYPE":"APPLICATION",
+        "PATH":"cmd"
+    },
+    {
+        "NAME":"C PROMPT",
+        "TYPE":"APPLICATION",
+        "PATH":"cmd"
+    },
+    {
+        "NAME":"SHELL",
+        "TYPE":"APPLICATION",
+        "PATH":"cmd"
+    },
+    {
+        "NAME":"WINDOWS SHELL",
+        "TYPE":"APPLICATION",
+        "PATH":"cmd"
+    },
+    {
+        "NAME":"ENCRYPTOR",
+        "TYPE":"PYTHON",
+        "PATH":"encrypt.py"
+    },
+    {
+        "NAME":"BODY INDEX",
+        "TYPE":"PYTHON",
+        "PATH":"GDetail.py"
+    },
+    {
+        "NAME":"PROTOCOL INDEX",
+        "TYPE":"PYTHON",
+        "PATH":"GDetail.py"
+    },
+    {
+        "NAME":"CODE SHELL",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files\"/\"Microsoft VS Code\"/Code.exe"
+    },
+    {
+        "NAME":"JTASK MANAGER",
+        "TYPE":"PYTHON",
+        "PATH":"JTaskManager.py"
+    },
+    {
+        "NAME":"TASK MANAGER",
+        "TYPE":"PYTHON",
+        "PATH":"JTaskManager.py"
+    },
+    {
+        "NAME":"INKSCAPE",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files\"/Inkscape/inkscape.exe"
+    },
+    {
+        "NAME":"LOGIN PORTAL",
+        "TYPE":"WEBSITE",
+        "PATH":"http://login.mftinternet.com"
+    },
+    {
+        "NAME":"TESLA",
+        "TYPE":"WEBSITE",
+        "PATH":"https://tesla.com"
+    },
+    {
+        "NAME":"SPACEX",
+        "TYPE":"WEBSITE",
+        "PATH":"https://spacex.com"
+    },
+    {
+        "NAME":"VLC",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files (x86)\"/VideoLAN/VLC/vlc.exe"
+    },
+    {
+        "NAME":"VEDIO PLAYER",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files (x86)\"/VideoLAN/VLC/vlc.exe"
+    },
+    {
+        "NAME":"PENDRIVE SERVICE",
+        "TYPE":"PYTHON",
+        "PATH":"pendrive.pyw"       
+    },
+    {
+        "NAME":"PENDRIVE BACKUP",
+        "TYPE":"PYTHON",
+        "PATH":"pendrive.pyw"       
+    },
+    {
+        "NAME":"WORDS",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files\"/\"Microsoft Office\"/Office16/WINWORD.exe"
+    },
+    {
+        "NAME":"EXCEL",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/\"Program Files\"/\"Microsoft Office\"/Office16/EXCEL.exe"
+    },
+    {
+        "NAME":"NOTEPAD",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/Windows/notepad.exe"
+    },
+    {
+        "NAME":"WTASK MANAGER",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/Windows/System32/Taskmgr.exe"
+    },
+    {
+        "NAME":"JPING",
+        "TYPE":"PYTHON",
+        "PATH":"connection/tping.py"       
+    },
+    {
+        "NAME":"OPERA",
+        "TYPE":"APPLICATION",
+        "PATH":"C:/Users/USER/AppData/Local/Programs/Opera/launcher.exe"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {"TYPE_CODE":["QUESTIONS","GREETINGS","BYE"]},
+    { "QUESTIONS":["what","who","how","why","where","when","whom"] },
+    { "GREETINGS":["hi","hey","sup","cool","comeon","see"] },
+    { "BYE":["bye","cool","tada","cool","comeon","see"] }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "CODE_MEET_PRI": [
+      {
+        "high": [
+          "Hello! I'm Cortex, your AI assistant. How can I help?",
+          "Hi there! What can I do for you today?",
+          "Greetings! Ready to assist.",
+          "Hey! What's on your mind?"
+        ]
+      },
+      {
+        "medium": [
+          "Hello! What do you need?",
+          "Hi! How's it going?",
+          "What's up?"
+        ]
+      },
+      {
+        "low": [
+          "Hello.",
+          "Hi."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_GV_PRE": [
+      {
+        "high": [
+          "Goodbye! It was nice talking to you. See you next time!",
+          "Take care! I'm always here if you need me.",
+          "Farewell! Come back soon.",
+          "See you later! Have a great day!"
+        ]
+      },
+      {
+        "medium": [
+          "Bye! Until next time.",
+          "Take care!",
+          "Goodbye!"
+        ]
+      },
+      {
+        "low": [
+          "Bye.",
+          "Goodbye."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_ACT_ASK_PRI": [
+      {
+        "high": [
+          "I can help you with:\n• System information (time, battery, network)\n• Opening applications (Chrome, Firefox, etc.)\n• File operations (backup, show files)\n• Task management and logging\n• Web search\n• And more! What would you like to do?",
+          "Here are some things you can ask me:\n1. 'What time is it?'\n2. 'Open Chrome'\n3. 'Backup my files'\n4. 'Check battery status'\n5. 'Tell me about yourself'\n6. 'Show my files'\nTry any of these!"
+        ]
+      },
+      {
+        "medium": [
+          "I can help with applications, files, system info, and more. What would you like?",
+          "Ask me about time, apps, files, network, or tasks."
+        ]
+      },
+      {
+        "low": [
+          "What do you need help with?",
+          "I'm here to help."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_START_ACTION": [
+      {
+        "high": [
+          "Opening application for you. Just a moment.",
+          "Launching the application. Please wait."
+        ]
+      },
+      {
+        "medium": [
+          "Starting application..."
+        ]
+      },
+      {
+        "low": [
+          "Opening..."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_VERSION_ACT": [
+      {
+        "high": [
+          "I'm Cortex version 1.0 - Rule-Based Cognitive Architecture"
+        ]
+      },
+      {
+        "medium": [
+          "Version 1.0"
+        ]
+      },
+      {
+        "low": [
+          "1.0"
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_SELF_EXP": [
+      {
+        "high": [
+          "My name is Cortex. I'm a rule-based AI assistant designed to help you with system tasks, applications, and information.",
+          "I'm Cortex, your personal AI cognitive architecture. I'm here to assist with your daily tasks."
+        ]
+      },
+      {
+        "medium": [
+          "I'm Cortex, an AI assistant.",
+          "My name is Cortex."
+        ]
+      },
+      {
+        "low": [
+          "Cortex."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_NEW_SEN": [
+      {
+        "high": [
+          "New learning pattern added to my knowledge base.",
+          "I've registered your new pattern."
+        ]
+      },
+      {
+        "medium": [
+          "Pattern learned."
+        ]
+      },
+      {
+        "low": [
+          "Done."
+        ]
+      }
+    ]
+  },
+  {
+    "SEARCH_PRI_ACTION": [
+      {
+        "high": [
+          "Searching for your query on Google. Opening your browser.",
+          "I'll search the web and open the results for you."
+        ]
+      },
+      {
+        "medium": [
+          "Searching now..."
+        ]
+      },
+      {
+        "low": [
+          "Searching..."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_BACK_REFRESH": [
+      {
+        "high": [
+          "Refreshing the system panel. All modules reloaded.",
+          "Panel refresh complete."
+        ]
+      },
+      {
+        "medium": [
+          "Refreshing panel..."
+        ]
+      },
+      {
+        "low": [
+          "Refresh."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_JARVIS_RESTART": [
+      {
+        "high": [
+          "Restarting Cortex system panel.",
+          "System reboot in progress."
+        ]
+      },
+      {
+        "medium": [
+          "Restarting..."
+        ]
+      },
+      {
+        "low": [
+          "Restart."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_INTERFERENCE_HIDE": [
+      {
+        "high": [
+          "Interference lock activated. System secured.",
+          "System is now in lock mode."
+        ]
+      },
+      {
+        "medium": [
+          "System locked."
+        ]
+      },
+      {
+        "low": [
+          "Locked."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_TIME_ACTION": [
+      {
+        "high": [
+          "The current time is {TIME}.",
+          "It's {TIME} right now."
+        ]
+      },
+      {
+        "medium": [
+          "Time: {TIME}"
+        ]
+      },
+      {
+        "low": [
+          "{TIME}"
+        ]
+      }
+    ]
+  },
+  {
+    "JARVIS_RESTART_PID": [
+      {
+        "high": [
+          "Restarting system."
+        ]
+      },
+      {
+        "medium": [
+          "Restarting..."
+        ]
+      },
+      {
+        "low": [
+          "Restart."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_CREATOR_DETAIL": [
+      {
+        "high": [
+          "I was created by Rishabh Gupta as part of the Rule-Based Cognitive Architecture project.",
+          "My creator is Rishabh Gupta."
+        ]
+      },
+      {
+        "medium": [
+          "Created by Rishabh Gupta."
+        ]
+      },
+      {
+        "low": [
+          "Rishabh Gupta."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_SELF_C": [
+      {
+        "high": [
+          "I'm a rule-based cognitive architecture that uses intent-mapping and pattern recognition to understand and respond to commands.",
+          "I operate using predefined rules and JSON-based knowledge rather than machine learning."
+        ]
+      },
+      {
+        "medium": [
+          "I'm a rule-based AI system."
+        ]
+      },
+      {
+        "low": [
+          "AI assistant."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_SELF_TIME": [
+      {
+        "high": [
+          "I was born on 17th July, 2019.",
+          "I was created on 17th July, 2019 by Rishabh Gupta."
+        ]
+      },
+      {
+        "medium": [
+          "July 17, 2019."
+        ]
+      },
+      {
+        "low": [
+          "2019."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_W_ADD": [
+      {
+        "high": [
+          "New data entry added successfully."
+        ]
+      },
+      {
+        "medium": [
+          "Entry added."
+        ]
+      },
+      {
+        "low": [
+          "Done."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_BACKUP_MAIN": [
+      {
+        "high": [
+          "Beginning file backup. This may take a few moments depending on file size.",
+          "Starting backup process. I'll secure your files now."
+        ]
+      },
+      {
+        "medium": [
+          "Starting backup..."
+        ]
+      },
+      {
+        "low": [
+          "Backup in progress."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_TASK_PRE": [
+      {
+        "high": [
+          "Task logged successfully. I'll remember this.",
+          "Your task has been recorded in my memory."
+        ]
+      },
+      {
+        "medium": [
+          "Task logged."
+        ]
+      },
+      {
+        "low": [
+          "Logged."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_CLEAR_SCREEN": [
+      {
+        "high": [
+          "Screen cleared.",
+          "Clearing display."
+        ]
+      },
+      {
+        "medium": [
+          "Clear."
+        ]
+      },
+      {
+        "low": [
+          "Done."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_LOG_READ": [
+      {
+        "high": [
+          "Reading task history from logs.",
+          "Retrieving logged tasks."
+        ]
+      },
+      {
+        "medium": [
+          "Loading logs..."
+        ]
+      },
+      {
+        "low": [
+          "Reading..."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_BATTERY_STAT": [
+      {
+        "high": [
+          "Your device battery is at {PERCENTAGE}% capacity.",
+          "Battery status: {PERCENTAGE}% charged."
+        ]
+      },
+      {
+        "medium": [
+          "Battery: {PERCENTAGE}%"
+        ]
+      },
+      {
+        "low": [
+          "{PERCENTAGE}%"
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_PING_CHECK": [
+      {
+        "high": [
+          "Checking network connectivity. Testing connection to Google.",
+          "Network status: Checking connectivity now."
+        ]
+      },
+      {
+        "medium": [
+          "Checking network..."
+        ]
+      },
+      {
+        "low": [
+          "Pinging..."
+        ]
+      }
+    ]
+  },
+  {
+    "CODE_VIDEO_HISTORY": [
+      {
+        "high": [
+          "Retrieving video history. Here are your recent videos:",
+          "Video history retrieved."
+        ]
+      },
+      {
+        "medium": [
+          "Loading videos..."
+        ]
+      },
+      {
+        "low": [
+          "Videos..."
+        ]
+      }
+    ]
+  },
+  {
+    "MOVIE_PLAY": [
+      {
+        "high": [
+          "Playing movie. Launching media player.",
+          "Starting video playback for you."
+        ]
+      },
+      {
+        "medium": [
+          "Playing movie..."
+        ]
+      },
+      {
+        "low": [
+          "Playing..."
+        ]
+      }
+    ]
+  }
+]

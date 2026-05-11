@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1592408197 source:/home/stark/Test/cpp/project/main.cpp
+	<iostream>
+	<string>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/time.h>
+	"myMacros.h"
+
+1592407853 /home/stark/Test/cpp/project/myMacros.h
+	<iostream>
+	<iostream>
+

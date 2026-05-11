@@ -1,0 +1,5 @@
+- Verb finder
+- Adjective Finder
+- Continuous Finder
+- About Finder
+- auxillary verbs finder
